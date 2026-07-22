@@ -13,7 +13,7 @@ After Docker Desktop has been installed, you can restore your original registry 
 >
 > It only changes a few registry values that some installers use to determine your Windows version.
 > 
-> **Tested on Windows 10 Enterprise LTSC, 26-July-2026 with Docker Desktop 4.83.0 / 2026-07-20**
+> **Tested on Windows 10 Enterprise LTSC, 22-July-2026 with Docker Desktop 4.83.0 / 2026-07-20**
 >
 > Your actual Windows kernel, features, files, and operating system remain completely unchanged.
 
@@ -45,7 +45,7 @@ On some systems (for example):
 - Older Windows 10 builds
 - Certain Insider builds
 
-the installer may incorrectly refuse to install, even though the operating system is otherwise compatible.
+The installer may incorrectly refuse to install, even though the operating system is otherwise compatible.
 
 This project temporarily changes only those registry values so the installer detects a supported Windows version.
 
@@ -56,7 +56,7 @@ After installation, your original values can be restored with the revert.bat fil
 
 # How it works
 
-The project contains two Batch scripts.
+The project contains two Batch scripts. Clone / Download the ZIP
 
 ## Step 1
 
